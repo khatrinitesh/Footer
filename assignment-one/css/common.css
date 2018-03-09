@@ -1,0 +1,209 @@
+/*=============================
+ 		FONT FACE
+=============================*/
+
+/* LATO REGULAR */
+@font-face {
+  font-family: 'lato-regular';
+  src: url('../fonts/lato-regular.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/lato-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/lato-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/lato-regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/lato-regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/lato-regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+/* LATO LIGHT */
+@font-face {
+  font-family: 'lato-light';
+  src: url('../fonts/lato-light.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/lato-light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/lato-light.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/lato-light.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/lato-light.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/lato-light.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+/* LATO BOLD */
+@font-face {
+  font-family: 'lato-bold';
+  src: url('../fonts/lato-bold.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/lato-bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/lato-bold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/lato-bold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/lato-bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/lato-bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'lato-regular';
+}
+
+.container{
+	width: 970px;
+}
+
+.foot_one
+{
+	background-color: #2e2e2e;
+	padding: 30px 0;
+}
+
+.foot_one ul li{
+	display: inline-block;
+	width: 48%;
+	padding-right: 50px;
+}
+
+.foot_one ul li:last-child{
+	padding-right: 0;
+}
+
+.foot_one .user_block,
+.foot_one .member_block
+{
+	background-color: #444444;
+	border-radius: 5px;
+	position: relative;
+	padding: 30px;
+}
+
+.foot_one .user_block .user_title,
+.foot_one .member_block .member_title
+{
+	float: left;
+	width: 60%;
+}
+
+.foot_one .user_block .user_title h3,
+.foot_one .member_block .member_title h3{
+	color: #fff;
+	font-size: 28px;
+	font-family: 'lato-bold';
+}
+
+.foot_one .user_block .user_title span,
+.foot_one .member_block .member_title span{
+	color: #fff;
+	font-size: 16px;
+	font-family: 'lato-light';
+}
+
+.foot_one .user_block .btn_block,
+.foot_one .member_block .btn_block{
+	position: absolute;
+	top: 50%;
+	right: 0%;
+	-webkit-transform: translate(-30%,-50%);
+	-ms-transform: translate(-30%,-50%);
+	-o-transform: translate(-30%,-50%);
+	transform: translate(-30%,-50%);
+}
+
+.foot_one .user_block .btn,
+.foot_one .member_block .btn{
+	width: 130px;
+	line-height: 40px;
+	text-align: center;
+	display: block;
+	font-size: 22px;
+	background-color: #2ab17a;
+	border: 1px solid #2ab17a;
+	color: #fff;
+	border-radius: 5px;	
+}
+
+.foot_two
+{
+	background-color: #1e1e1e;
+	padding: 30px 0;
+}
+
+.foot_two .nav_link h3{
+	color: #fff;
+	font-size: 22px;
+	font-family: 'lato-light';
+	margin: 0 0 17px;
+}
+
+.foot_two .nav_link ul li a{
+	color: #b0a6a6;
+	font-size: 14px;
+	display: block;
+	text-decoration: none;
+	outline: none;
+}
+
+.foot_two .nav_link ul li
+{
+	padding: 0 0 15px;
+	list-style-type: none;
+}
+
+.foot_three
+{
+	background-color: #0e0e0e;
+	padding: 18px 0;
+	text-align: center;
+}
+
+.foot_three span{
+	font-size: 14px;
+	color: #b0a6a6;
+}
+
+/* GREEN COLOR */
+.bg_green_one
+{
+	background-color: #176244;
+}
+
+.bg_green_one .user_block,
+.bg_green_one .member_block
+{
+	background-color: #0d3f2b;
+}
+
+.bg_green_two{
+	background-color: #0d3f2b;
+}
+
+.bg_green_three{
+	background-color: #08291c;
+}
+
+
+/* BLUE COLOR */
+.bg_blue_one
+{
+	background-color: #2c59a9;
+}
+
+.bg_blue_one .user_block,
+.bg_blue_one .member_block
+{
+	background-color: #4377d4;
+}
+
+.bg_blue_one .user_block  .btn,
+.bg_blue_one .member_block .btn{
+	background-color: #2f61ba;
+	border: 1px solid #2f61ba;
+}
+
+.bg_blue_two{
+	background-color: #1d4285;
+}
+
+.bg_blue_three{
+	background-color: #132f63;
+}
